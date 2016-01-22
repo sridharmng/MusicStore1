@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.ComponentModel.DataAnnotations;
 
 namespace MusicStore.Models
 {
     public class Album
     {
+        [Key]
         public int AlbumId { get; set; }
         public int GenreId { get; set; }
         public int ArtistId { get; set; }
