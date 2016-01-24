@@ -8,7 +8,7 @@ namespace MusicStore.Models
     public class Genre
     {
         [Key]
-        public int GenredId { get; set; }
+        public int GenreId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public List<Album> Albums { get; set; }
