@@ -13,6 +13,7 @@ namespace MusicStore.Controllers
     {
         MusicStoreEntities storeDb = new MusicStoreEntities();
         // GET: ShoppingCart
+
         public ActionResult Index()
         {
             var cart = ShoppingCart.GetCart(this.HttpContext);
