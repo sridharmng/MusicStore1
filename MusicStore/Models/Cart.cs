@@ -15,7 +15,7 @@ namespace MusicStore.Models
         public int AlbumId { get; set; }
         public int Count { get; set; }
         public DateTime DateCreated { get; set; }
-
+        public string AlbumTitle { get; set; }
         public virtual Album Album { get; set; }
     }
 }

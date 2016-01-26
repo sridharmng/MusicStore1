@@ -38,6 +38,7 @@ namespace MusicStore.Models
                 // Create a new cart item if no cart item exists
                 cartItem = new Cart
                 {
+                    AlbumTitle= album.Title,
                     AlbumId = album.AlbumId,
                     CartId = ShoppingCartId,
                     Count = 1,
